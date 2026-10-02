@@ -10,19 +10,19 @@
             
             <div class="p-4 sm:p-8 bg-[#111] border border-zinc-800 shadow-lg sm:rounded-md">
                 <div class="max-w-xl">
-                    @include('profile.partials.update-profile-information-form')
+                    @include('partials.update-profile-information-form')
                 </div>
             </div>
 
             <div class="p-4 sm:p-8 bg-[#111] border border-zinc-800 shadow-lg sm:rounded-md">
                 <div class="max-w-xl">
-                    @include('profile.partials.update-password-form')
+                    @include('partials.update-password-form')
                 </div>
             </div>
 
             <div class="p-4 sm:p-8 bg-[#111] border border-red-900/30 shadow-lg sm:rounded-md">
                 <div class="max-w-xl">
-                    @include('profile.partials.delete-user-form')
+                    @include('partials.delete-user-form')
                 </div>
             </div>
 
